@@ -1,0 +1,52 @@
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.right {
+  width: 40%;
+  margin-top: 30px;
+}
+.chair {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.left .hangGhe:first-child .chair {
+  border: none;
+  cursor: auto;
+}
+.select-bg {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 3px;
+}
+.notAllow-bg {
+  width: 15px;
+  height: 15px;
+  background-color: gray;
+  border-radius: 3px;
+}
+.Allow-bg {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.booked {
+  color: white;
+  background-color: red;
+  border: 1px solid white;
+}
+.haveBooked {
+  color: white;
+  background-color: grey;
+  cursor: auto;
+  border: none;
+}
